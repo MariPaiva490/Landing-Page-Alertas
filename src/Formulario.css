@@ -1,0 +1,121 @@
+
+/* Formulário mais compacto */
+.form-ocorrencia {
+  width: 100%;
+  max-width: 520px;
+  margin: 20px auto;
+  padding: 22px;
+
+  box-sizing: border-box;
+  background-color: #ffffff;
+  color: #1e293b;
+
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  box-shadow: 0 5px 20px rgba(15, 23, 42, 0.08);
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+  text-align: left;
+}
+
+.form-ocorrencia * {
+  box-sizing: border-box;
+}
+
+/* Rótulos */
+.form-ocorrencia label {
+  display: block;
+  margin: 12px 0 5px;
+  color: #334155;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+/* Campos */
+.form-ocorrencia input:not([type="file"]),
+.form-ocorrencia select,
+.form-ocorrencia textarea {
+  display: block;
+  width: 100%;
+  min-height: 38px;
+  padding: 8px 10px;
+
+  border: 1px solid #cbd5e1;
+  border-radius: 7px;
+  background-color: #ffffff;
+  color: #1e293b;
+  font: inherit;
+}
+
+/* Descrição e fonte */
+.form-ocorrencia textarea {
+  min-height: 85px;
+  resize: vertical;
+}
+
+/* Anexo */
+.form-ocorrencia input[type="file"] {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  border: 1px dashed #94a3b8;
+  border-radius: 7px;
+  background-color: #f8fafc;
+  color: #334155;
+  font-size: 12px;
+}
+
+/* Aviso de privacidade */
+.form-ocorrencia .aviso-privacidade {
+  margin: 16px 0;
+  padding: 10px 12px;
+
+  border-left: 3px solid #d97706;
+  border-radius: 5px;
+  background-color: #fffbeb;
+  color: #78350f;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+/* Imagem selecionada */
+.form-ocorrencia .imagem-selecionada {
+  margin-top: 6px;
+  color: #64748b;
+  font-size: 12px;
+  overflow-wrap: anywhere;
+}
+
+/* Botão */
+.form-ocorrencia button[type="submit"] {
+  display: block;
+  width: 100%;
+  min-height: 40px;
+  margin-top: 18px;
+  padding: 9px 16px;
+
+  border: none;
+  border-radius: 7px;
+  background-color: #2563eb;
+  color: #ffffff;
+
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.form-ocorrencia button[type="submit"]:hover {
+  background-color: #1d4ed8;
+}
+
+/* Celulares */
+@media (max-width: 600px) {
+  .form-ocorrencia {
+    width: 100%;
+    margin: 10px auto;
+    padding: 16px;
+    border-radius: 10px;
+  }
+}
